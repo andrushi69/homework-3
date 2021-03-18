@@ -3,6 +3,7 @@ html {
 }
 body {
   font-family: Roboto, sans-serif;
+  background-color: #e5e5e5;
 }
 p {
   color: #757575;
@@ -189,13 +190,9 @@ p {
   border-radius: 4px;
   display: inline-block;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  padding: 10px 32px;
   width: 200px;
   height: 50px;
   margin: 15px 700px 200px 700px;
-}
-.button-2:hover {
-  background-color: #2196f3;
 }
 .button-2 {
   font-family: Roboto;
@@ -204,6 +201,122 @@ p {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+  color: black;
+  background-color: #e5e5e5;
+  transition: 0.1s;
+  border: #e5e5e5;
+  width: 73px;
+  height: 38px;
+}
+.button-2:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: translateY(0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-3 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+  color: black;
+  background-color: #e5e5e5;
+  transition: 0.1s;
+  border: #e5e5e5;
+  width: 128px;
+  height: 38px;
+}
+.button-3:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: translateY(0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-4 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+  color: black;
+  background-color: #e5e5e5;
+  transition: 0.1s;
+  border: #e5e5e5;
+  width: 145px;
+  height: 38px;
+}
+.button-4:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: translateY(0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-5 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 8px;
+  display: inline-block;
+  border-radius: 4px;
+  color: black;
+  background-color: #e5e5e5;
+  transition: 0.1s;
+  border: #e5e5e5;
+  width: 103px;
+  height: 38px;
+}
+.button-5:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: translateY(0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-6 {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-right: 8px;
+
+  display: inline-block;
+  border-radius: 4px;
+  color: black;
+  background-color: #e5e5e5;
+  transition: 0.1s;
+  border: #e5e5e5;
+  width: 130px;
+  height: 38px;
+}
+.button-6:hover {
+  background-color: #2196f3;
+  color: white;
+  transform: translateY(0);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .main-title {
   font-family: Roboto;
@@ -268,6 +381,15 @@ p {
 }
 
 /* portfolio section*/
+
+.main-portfolio-section {
+  width: 1170px;
+  height: 1360px;
+  margin-right: 215px;
+  margin-left: 215px;
+  margin-bottom: 94px;
+}
+
 .names-section {
   font-family: Roboto;
   font-weight: 500;
@@ -289,6 +411,12 @@ p {
 }
 .button-section {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  width: 611px;
+  height: 54px;
+  margin: 94px 494px 34px 495px;
+  padding: 0;
 }
 .description-section {
   font-family: Roboto;
@@ -310,6 +438,13 @@ p {
 }
 .photos-and-description-section {
   list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-left: -215px;
+  margin-right: -215px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .list-section {
   list-style-type: none;
@@ -324,6 +459,10 @@ p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+  width: 322px;
+  height: 30px;
+  margin-top: 2px;
+  margin-bottom: 0;
 }
 .portfolio-description-title {
   font-family: Roboto;
@@ -331,8 +470,56 @@ p {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  width: 322px;
+  height: 36px;
+  margin-bottom: 2px;
+  margin-top: 0;
 }
-
+.first-portfolio-list {
+  margin: 0 15px 15px 215px;
+  width: 370px;
+  height: 404px;
+}
+.second-portfolio-list {
+  margin: 0 15px 15px 15px;
+  width: 370px;
+  height: 404px;
+}
+.third-portfolio-list {
+  margin: 0 215px 15px 15px;
+  width: 370px;
+  height: 404px;
+}
+.fourth-portfolio-list {
+  margin: 15px 15px 15px 215px;
+  width: 370px;
+  height: 404px;
+}
+.fifth-portfolio-list {
+  margin: 15px 15px 15px 15px;
+  width: 370px;
+  height: 404px;
+}
+.sixth-portfolio-list {
+  margin: 15px 215px 15px 15px;
+  width: 370px;
+  height: 404px;
+}
+.seventh-portfolio-list {
+  margin: 15px 15px 0 215px;
+  width: 370px;
+  height: 404px;
+}
+.eighth-portfolio-list {
+  margin: 15px 15px 0 15px;
+  width: 370px;
+  height: 404px;
+}
+.ninth-portfolio-list {
+  margin: 15px 215px 0 15px;
+  width: 370px;
+  height: 404px;
+}
 .every-list-section {
   width: 270px;
   height: 101px;
@@ -370,4 +557,9 @@ p {
 .proffessionalists-images {
   border-radius: 0px;
   margin-bottom: 15px;
+}
+.first-description {
+  width: 322px;
+  height: 70px;
+  margin: 20px 24px;
 }
