@@ -9,6 +9,11 @@ p {
   color: #757575;
 }
 
+.container {
+  width: 1200px;
+  padding: 0;
+  margin: 0 200px;
+}
 /* header */
 .main-container {
   height: 80px;
@@ -49,7 +54,8 @@ p {
   list-style-type: none;
   display: flex;
   flex-direction: row;
-  margin: auto;
+  margin: 32px 0 23px 93px;
+  padding: 0;
 }
 .link-first {
   text-decoration: none;
@@ -69,7 +75,7 @@ p {
 .main-link {
   text-decoration: none;
   color: black;
-  margin: 24px 43px 25px 215px;
+  margin: 24px 0 25px 0;
   width: 145px;
   height: 31px;
 }
