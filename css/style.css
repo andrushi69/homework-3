@@ -3,7 +3,6 @@ html {
 }
 body {
   font-family: Roboto, sans-serif;
-  background-color: #e5e5e5;
 }
 p {
   color: #757575;
@@ -21,16 +20,16 @@ p {
   height: 80px;
   display: flex;
   flex-direction: row;
-  width: 1600px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .navigation-container {
   display: flex;
-  flex-direction: row;
+  align-items: center;
 }
 .main-link {
   text-decoration: none;
   color: black;
-  margin: 24px 43px 25px 0;
 }
 .title {
   color: #2196f3;
@@ -59,7 +58,7 @@ p {
   display: flex;
   flex-direction: row;
   padding: 0;
-  margin: 32px 0 32px 50px;
+  margin-left: 93px;
 }
 .list :hover {
   color: #2196f3;
@@ -87,7 +86,6 @@ p {
 .main-section {
   background-color: #2f303a;
   color: #ffffff;
-  width: 1600px;
   height: 600px;
   display: flex;
   align-items: center;
@@ -100,7 +98,6 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   text-align: center;
-  margin: 200px 252px 0 252px;
 }
 .button {
   background-color: #2196f3;
@@ -111,17 +108,15 @@ p {
   letter-spacing: 0.06em;
   cursor: pointer;
   border-radius: 4px;
-  display: inline-block;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   width: 200px;
   height: 50px;
-  margin: 30px 500px 200px 500px;
+  margin: 0 auto;
+  display: block;
 }
 /* second section index.html*/
 .second-section {
-  width: 1170px;
-  height: 101px;
-  margin: 94px 215px;
+  padding-top: 94px;
 }
 .list-section {
   list-style-type: none;
@@ -144,18 +139,20 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 0;
 }
 .description-section {
   font-family: Roboto;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  margin: 0;
 }
 /* penultimate section index.html*/
 .penultimate-section {
-  width: 1170px;
-  margin-left: 215px;
-  margin-right: 215px;
+  align-items: center;
+  padding-top: 94px;
 }
 .third-section-title {
   font-family: Roboto;
@@ -165,8 +162,8 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  height: 42px;
-  margin-bottom: 50px;
+  margin: 0;
+  padding-bottom: 50px;
 }
 .third-section-list {
   list-style-type: none;
@@ -175,7 +172,7 @@ p {
   margin-left: -30px;
   margin-top: -50px;
   padding: 0;
-  margin-bottom: 94px;
+  margin-bottom: 0;
 }
 .image-1 {
   margin-left: 30px;
@@ -184,8 +181,8 @@ p {
 }
 /*proffession section index.html*/
 .profession-section {
-  width: 1600px;
-  height: 648px;
+  padding-bottom: 96px;
+  padding-top: 94px;
 }
 .proffession-title {
   font-family: Roboto;
@@ -195,8 +192,9 @@ p {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  height: 42px;
-  margin: 94px 0 50px 0;
+  margin: 0;
+  padding-bottom: 50px;
+  padding-top: 94px;
 }
 .proffession-section-list {
   list-style-type: none;
@@ -205,18 +203,21 @@ p {
   padding: 0;
   margin-top: -50px;
   margin-left: -30px;
+  margin-bottom: 0;
 }
+
 .workers-list {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   margin-top: 50px;
   margin-left: 30px;
+
   flex-basis: calc((100% - 120px) / 4);
 }
 .proffessionalists-images {
   border-radius: 0px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .names-section {
   font-family: Roboto;
@@ -224,9 +225,10 @@ p {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  margin-top: 15px;
-  margin-bottom: 5px;
+  padding-top: 15px;
+  padding-bottom: 5px;
   text-align: center;
+  margin: 0;
 }
 .profession {
   font-family: Roboto;
@@ -234,23 +236,22 @@ p {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  margin: 0;
 }
 
 /* footer section index.html and portfolio.html*/
 .main-last-section {
   background-color: #2f303a;
   color: #ffffff;
-  width: 1600px;
-  height: 252px;
+  padding-top: 60px;
 }
 .footer-section {
   padding: 0;
   margin: 0;
 }
 .footer-title {
-  padding-top: 60px;
   text-decoration: none;
   list-style-type: none;
 }
@@ -273,8 +274,8 @@ p {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   list-style-type: none;
-  padding: 0;
-  margin-top: 20px;
+  padding-left: 0;
+  padding-top: 20px;
 }
 .list-2 :hover {
   color: #2196f3;
@@ -282,6 +283,7 @@ p {
 .last-footer-items {
   display: flex;
   flex-direction: column;
+  padding-bottom: 60px;
 }
 .address-2 {
   color: white;
@@ -291,7 +293,7 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 .address-2:hover {
   color: #2196f3;
@@ -299,7 +301,7 @@ p {
 .link-3 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 9px;
+  padding-bottom: 9px;
 }
 .link-6 {
   text-decoration: none;
@@ -310,11 +312,10 @@ p {
 .button-section {
   list-style-type: none;
   display: flex;
-  flex-direction: row;
-  width: 611px;
-  height: 54px;
-  margin: 94px 294px 34px 295px;
-  padding: 0;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin: 0;
+  padding-left: 8px;
 }
 .link-2 {
   color: #757575;
@@ -331,79 +332,11 @@ p {
   display: inline-block;
   border-radius: 4px;
   color: black;
-  background-color: #e5e5e5;
+  background-color: white;
   transition: 0.1s;
   border: #e5e5e5;
-  width: 73px;
-  height: 38px;
-}
-.button-3 {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  margin-right: 8px;
-  display: inline-block;
-  border-radius: 4px;
-  color: black;
-  background-color: #e5e5e5;
-  transition: 0.1s;
-  border: #e5e5e5;
-  width: 128px;
-  height: 38px;
-}
-.button-4 {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  margin-right: 8px;
-  display: inline-block;
-  border-radius: 4px;
-  color: black;
-  background-color: #e5e5e5;
-  transition: 0.1s;
-  border: #e5e5e5;
-  width: 145px;
-  height: 38px;
-}
-.button-5 {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  margin-right: 8px;
-  display: inline-block;
-  border-radius: 4px;
-  color: black;
-  background-color: #e5e5e5;
-  transition: 0.1s;
-  border: #e5e5e5;
-  width: 103px;
-  height: 38px;
-}
-.button-6 {
-  font-family: Roboto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  margin-right: 8px;
-  display: inline-block;
-  border-radius: 4px;
-  color: black;
-  background-color: #e5e5e5;
-  transition: 0.1s;
-  border: #e5e5e5;
-  width: 130px;
-  height: 38px;
+  padding: 6px 22px;
+  margin: 0;
 }
 li > button:hover {
   background-color: #2196f3;
@@ -415,11 +348,8 @@ li > button:hover {
 /* main section portfolio.html*/
 
 .main-portfolio-section {
-  width: 1170px;
-  height: 1360px;
-  margin-right: 215px;
-  margin-left: 215px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .photos-and-description-section {
   list-style-type: none;
@@ -428,16 +358,18 @@ li > button:hover {
   margin-top: -34px;
   margin-left: -30px;
   padding: 0;
+  margin-bottom: 0;
+ 
+}
 }
 .portfolio-description {
   font-family: Roboto;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  width: 322px;
-  height: 30px;
-  margin-top: 2px;
-  margin-bottom: 0;
+  padding-top: 2px;
+  padding-bottom: 0;
+  margin: 0;
 }
 .portfolio-description-title {
   font-family: Roboto;
@@ -445,18 +377,18 @@ li > button:hover {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-bottom: 2px;
-  margin-top: 0;
+  padding-bottom: 2px;
+  padding-top: 0;
+  margin: 0;
 }
 .portfolio-list {
   margin-top: 34px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
+
 }
 .description {
-  width: 322px;
-  height: 70px;
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 .every-list-section {
   margin-left: 30px;
