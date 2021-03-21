@@ -359,8 +359,6 @@ li > button:hover {
   margin-left: -30px;
   padding: 0;
   margin-bottom: 0;
- 
-}
 }
 .portfolio-description {
   font-family: Roboto;
@@ -385,7 +383,6 @@ li > button:hover {
   margin-top: 34px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
-
 }
 .description {
   padding: 20px 24px;
