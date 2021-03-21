@@ -334,7 +334,7 @@ p {
   color: black;
   background-color: white;
   transition: 0.1s;
-  background-color: #e5e5e5;
+  background: #e5e5e5;
   padding: 6px 22px;
   margin-right: 8px;
 }
