@@ -21,6 +21,7 @@ p {
   flex-direction: row;
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 .navigation-container {
   display: flex;
@@ -151,6 +152,7 @@ p {
 .penultimate-section {
   align-items: center;
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 .third-section-title {
   font-family: Roboto;
@@ -161,7 +163,7 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 .third-section-list {
   list-style-type: none;
@@ -191,8 +193,7 @@ p {
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0;
-  padding-bottom: 50px;
-  padding-top: 94px;
+  margin-bottom: 50px;
 }
 .proffession-section-list {
   list-style-type: none;
@@ -215,7 +216,6 @@ p {
 }
 .proffessionalists-images {
   border-radius: 0px;
-  padding-bottom: 15px;
 }
 .names-section {
   font-family: Roboto;
@@ -223,8 +223,7 @@ p {
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  padding-top: 15px;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
   text-align: center;
   margin: 0;
 }
@@ -234,9 +233,12 @@ p {
   line-height: 1.18;
   letter-spacing: 0.03em;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 30px;
   margin: 0;
+  margin-top: 5px;
+}
+.profession-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 /* footer section index.html and portfolio.html*/
@@ -244,6 +246,7 @@ p {
   background-color: #2f303a;
   color: #ffffff;
   padding-top: 60px;
+  padding-bottom: 62px;
 }
 .footer-section {
   padding: 0;
@@ -274,6 +277,7 @@ p {
   list-style-type: none;
   padding-left: 0;
   padding-top: 20px;
+  margin: 0;
 }
 .list-2 :hover {
   color: #2196f3;
@@ -281,7 +285,6 @@ p {
 .last-footer-items {
   display: flex;
   flex-direction: column;
-  padding-bottom: 60px;
 }
 .address-2 {
   color: white;
@@ -291,7 +294,7 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   font-style: normal;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .address-2:hover {
   color: #2196f3;
@@ -299,7 +302,7 @@ p {
 .link-3 {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 .link-6 {
   text-decoration: none;
@@ -311,9 +314,9 @@ p {
   list-style-type: none;
   display: flex;
   justify-content: center;
-  padding-bottom: 50px;
-  margin: 0;
-  padding-left: 8px;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding: 0;
 }
 .link-2 {
   color: #757575;
@@ -326,15 +329,14 @@ p {
   line-height: 1.62;
   letter-spacing: 0.03em;
   cursor: pointer;
-  margin-right: 8px;
   display: inline-block;
   border-radius: 4px;
   color: black;
   background-color: white;
   transition: 0.1s;
-  border: #e5e5e5;
+  background-color: #e5e5e5;
   padding: 6px 22px;
-  margin: 0;
+  margin-right: 8px;
 }
 li > button:hover {
   background-color: #2196f3;
@@ -363,7 +365,7 @@ li > button:hover {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  padding-top: 2px;
+  margin-top: 2px;
   padding-bottom: 0;
   margin: 0;
 }
@@ -373,7 +375,7 @@ li > button:hover {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  padding-bottom: 2px;
+  margin-bottom: 2px;
   padding-top: 0;
   margin: 0;
 }
@@ -384,6 +386,7 @@ li > button:hover {
 }
 .description {
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .every-list-section {
   margin-left: 30px;
