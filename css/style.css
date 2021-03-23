@@ -7,6 +7,11 @@ body {
 p {
   color: #757575;
 }
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -73,6 +78,7 @@ p {
   text-decoration: none;
   margin-left: 280px;
 }
+
 .link-4-item {
   color: #757575;
   text-decoration: none;
@@ -83,13 +89,6 @@ p {
 }
 /* main-section index.html*/
 
-.main-section {
-  background-color: #2f303a;
-  color: #ffffff;
-  height: 600px;
-  display: flex;
-  align-items: center;
-}
 .main-title {
   font-family: Roboto;
   font-weight: 900;
@@ -131,6 +130,7 @@ p {
   margin-top: 0px;
   flex-basis: calc((100% - 120px) / 4);
 }
+
 .description-section-title {
   font-family: Roboto;
   font-weight: bold;
